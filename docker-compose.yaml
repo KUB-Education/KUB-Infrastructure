@@ -1,6 +1,6 @@
 services:
   postgres:
-    image: postgres:18
+    image: postgres:17
     container_name: postgres
     restart: unless-stopped
     environment:
@@ -38,7 +38,7 @@ services:
       retries: 20
 
   # kub-backend-ce:
-  #   image: kildice/kub-backend-ce:v.0.2.1-dev
+  #   image: kildice/kub-backend-ce:v.0.2.2-dev
   #   container_name: kub-backend-ce
   #   depends_on:
   #     postgres:
