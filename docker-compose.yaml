@@ -40,7 +40,7 @@ services:
       retries: 20
 
   # kub-backend-ce:
-  #   image: kildice/kub-backend-ce:v.0.2.2-dev
+  #   image: kildice/kub-backend-ce:v.0.2.3-dev
   #   container_name: kub-backend-ce
   #   depends_on:
   #     postgres:
